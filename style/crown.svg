@@ -1,0 +1,6 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+<polyline points="20,60 60,95 100,20 140,95 180,60 160,140 40,140 20,60" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke="gold"/>
+<polyline points="40,155 160,155" stroke-width="5" stroke-linecap="round" stroke="gold"/>
+<!-- <circle r="45" cx="50" cy="50" fill="white" />
+ <polygon points="37,30 37,70 70,50" fill="black" /> -->
+</svg>
