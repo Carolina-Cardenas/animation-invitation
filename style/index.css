@@ -9,13 +9,12 @@
 }
 .container {
   width: 100%;
-  height: 100%;
   background-color: black;
   padding: 3.5rem 0;
   margin: auto;
   gap: 50px;
-  height: 100vh;
   padding: 20px;
+  height: 100vh;
 }
 .bigger {
   width: 25px;
@@ -31,8 +30,12 @@
   font-family: "YouTube Sans", sans-serif;
   color: white;
   display: flex;
+  transition: transform 0.3s;
 }
-.p {
+.logo:hover{
+  transform: scale(1.1);
+}
+.information {
   color: #dfb52b;
   font-family: sans-serif;
   margin-left: 20px;
@@ -48,17 +51,16 @@ button {
   margin-right: 10px;
   padding: 10px;
 
-  transition: background-color 0.3s ease;
+  transition: background-color 0.9s ease;
   font-weight: bold;
   color: white;
 }
 
 button:hover {
   font-family: "YouTube Sans", sans-serif;
-  font-size: 8px;
+  font-size: 12px;
   align-items: center;
   justify-content: center;
-  opacity: 1;
   background-color: rgba(27, 26, 26, 0.908);
 }
 .btn-item {
@@ -89,3 +91,5 @@ button:hover {
     transform: rotateY(360deg);
   }
 }
+
+

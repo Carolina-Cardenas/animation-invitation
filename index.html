@@ -8,14 +8,14 @@
     <link href="./style/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="./style/animate.css" rel="stylesheet">
     <title>YouTuve</title>
 </head>
 
 <body>
     <div class="container">
         <section class="img">
-            <div class="logo"><img class="youtube" src="./img/youtube.svg" alt="settings">
+            <div class="logo animate__animated animate__bounce hover-animate"><img class="youtube" src="./img/youtube.svg" alt="settings">
                 <h2>Premium</h2>
             </div>
             <div>
@@ -40,12 +40,16 @@
             <button type="button" class="btn-item">Blue</button>
         </section>
         <section class="icons-crown">
-            <img class="imageRotateHorizontal" src="./img/crown.svg" alt="settings">
+            <svg class="imageRotateHorizontal" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="20,60 60,95 100,20 140,95 180,60 160,140 40,140 20,60" fill="none" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke="#dfb52b"/>
+                <polyline points="40,160 160,160" stroke-width="10" stroke-linecap="round" stroke="#dfb52b"/>
+                
+                </svg>
         </section>
         <section>
-            <p class="p">
+            <p class="information">
                 Welcome to the biggest party of 2024, we celebrate YouTube's 19th anniversary. Come and celebrate
-                with as our VIP party! This 14th of February conect and join as at on our plataform,
+                with as our VIP party! This 14th of February connect and join as at on our platform,
                 from three o'clock.
             </p>
         </section>
