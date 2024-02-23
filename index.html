@@ -4,24 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
     <link href="./style/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet">
-    <link href="./style/animate.css" rel="stylesheet">
-    <title>YouTuve</title>
+    <title>YouTube party invitation</title>
 </head>
 
 <body>
     <div class="container">
         <section class="img">
-            <div class="logo animate__animated animate__bounce hover-animate"><img class="youtube" src="./img/youtube.svg" alt="settings">
+            <div class="logo animate__animated animate__bounce hover-animate"><img class="youtube"
+                    src="./img/youtube.svg" alt="settings">
                 <h2>Premium</h2>
             </div>
             <div>
-                <img class="icons bigger" src="./img/chromecast.svg" alt="settings">
-                <img class="icons bell" src="./img/notifications.svg" alt="settings">
-                <img class="icons" src="./img/search.svg" alt="settings">
+                <svg class="icons bigger">
+                    <use xlink:href="img/chromecast.svg#chromecast"></use>
+                </svg>
+                <svg class="icons bell">
+                  <use xlink:href="img/notifications.svg#notifications"></use>  
+                </svg>
+                <svg class="icons">
+                    <use xlink:href="img/search.svg#search"></use>  
+                </svg>
             </div>
         </section>
         <section class="btn">
@@ -41,10 +47,11 @@
         </section>
         <section class="icons-crown">
             <svg class="imageRotateHorizontal" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                <polyline points="20,60 60,95 100,20 140,95 180,60 160,140 40,140 20,60" fill="none" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke="#dfb52b"/>
-                <polyline points="40,160 160,160" stroke-width="10" stroke-linecap="round" stroke="#dfb52b"/>
-                
-                </svg>
+                <polyline points="20,60 60,95 100,20 140,95 180,60 160,140 40,140 20,60" fill="none" stroke-width="15"
+                    stroke-linecap="round" stroke-linejoin="round" stroke="#dfb52b" />
+                <polyline points="40,160 160,160" stroke-width="10" stroke-linecap="round" stroke="#dfb52b" />
+
+            </svg>
         </section>
         <section>
             <p class="information">
